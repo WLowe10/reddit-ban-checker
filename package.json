@@ -1,0 +1,28 @@
+{
+	"name": "reddit-ban-checker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"rcb": "./dist/cli.js"
+	},
+	"scripts": {
+		"build": "rm -rf dist && tsup ./src --format esm",
+		"link-bin": "pnpm -g link"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.7.2",
+		"chalk": "^5.3.0",
+		"figures": "^6.1.0",
+		"meow": "^13.2.0",
+		"ora": "^8.0.1"
+	},
+	"devDependencies": {
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.5"
+	}
+}
