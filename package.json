@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"type": "module",
 	"bin": {
-		"rcb": "./dist/cli.js"
+		"rbc": "./dist/cli.js"
 	},
 	"scripts": {
 		"build": "rm -rf dist && tsup ./src --format esm",
