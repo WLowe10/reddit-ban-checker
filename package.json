@@ -1,9 +1,10 @@
 {
 	"name": "reddit-ban-checker",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A CLI tool to check if a reddit account is banned",
 	"main": "index.js",
 	"type": "module",
+	"repository": "https://github.com/WLowe10/reddit-ban-checker",
 	"bin": {
 		"rbc": "./dist/cli.js"
 	},
@@ -11,9 +12,13 @@
 		"build": "rm -rf dist && tsup ./src --format esm",
 		"link-bin": "pnpm -g link"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"reddit",
+		"ban",
+		"cli"
+	],
+	"author": "Wes Lowe <wesley.lowe@yahoo.com>",
+	"license": "MIT",
 	"dependencies": {
 		"axios": "^1.7.2",
 		"chalk": "^5.3.0",
