@@ -2,7 +2,6 @@
 	"name": "reddit-ban-checker",
 	"version": "1.0.2",
 	"description": "A CLI tool to check if a reddit account is banned",
-	"main": "index.js",
 	"type": "module",
 	"repository": "https://github.com/WLowe10/reddit-ban-checker",
 	"bin": {
