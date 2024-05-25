@@ -1,6 +1,6 @@
 {
 	"name": "reddit-ban-checker",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A CLI tool to check if a reddit account is banned",
 	"main": "index.js",
 	"type": "module",
@@ -9,9 +9,10 @@
 		"rbc": "./dist/cli.js"
 	},
 	"scripts": {
-		"build": "rm -rf dist && tsup ./src --format esm",
+		"build": "pnpm clean:dist && tsup ./src --format esm",
+		"clean:dist": "rm -rf dist",
 		"link-bin": "pnpm -g link",
-		"prepublish": "pnpm build"
+		"prepublishOnly": "pnpm build"
 	},
 	"keywords": [
 		"reddit",
