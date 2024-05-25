@@ -9,10 +9,10 @@ import { checkRedditBan } from "./check-reddit-ban.js";
 const cli = meow(
 	`
 	Usage
-    $ rcb <username> <username> ...
+    $ rbc <username> <username> ...
 
     Examples
-    $ rcb coolchicken another-account`,
+    $ rbc coolchicken another-account`,
 	{
 		importMeta: import.meta,
 	}

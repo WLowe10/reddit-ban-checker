@@ -12,9 +12,9 @@ npm install --global reddit-ban-checker
 $ rbc --help
 
   Usage
-    $ rcb <username> <username> ...
+    $ rbc <username> <username> ...
 
     Examples
-    $ rcb coolchicken another-account
+    $ rbc coolchicken another-account
 
 ```
